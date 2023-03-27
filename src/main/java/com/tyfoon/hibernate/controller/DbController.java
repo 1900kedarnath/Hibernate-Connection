@@ -26,7 +26,7 @@ public String insertBySession() {
 }
 
 @RequestMapping("/persistence")
-public String insertByPersistence() {
+public String insertByPersistence() throws Exception{
 	
 	departmentServices.insertDatabyPersistence();
 	
